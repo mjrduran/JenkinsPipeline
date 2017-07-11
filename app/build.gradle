@@ -1,5 +1,5 @@
-apply plugin: 'net.researchgate.release'
 apply plugin: 'com.android.application'
+apply plugin: 'net.researchgate.release'
 
 android {
     compileSdkVersion 26
