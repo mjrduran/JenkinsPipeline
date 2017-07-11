@@ -32,6 +32,7 @@ dependencies {
 
 release {
     tagTemplate = 'v-${version}'
+    versionPropertyFile = "../gradle.properties"
 
     git {
         requireBranch = 'develop'
