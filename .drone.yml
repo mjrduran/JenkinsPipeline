@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: circleci/android:api-25-alpha
+    commands:
+      - ./gradlew androidDependencies
+      - ./gradlew lint test
+      - ./gradlew :app:assembleDebug
